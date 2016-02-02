@@ -75,7 +75,6 @@
         android:id="@+id/button7"
         android:onClick="num_clicked"
         android:layout_above="@+id/button1"
-        android:layout_toRightOf="@+id/buttonEqual"
-        android:layout_toEndOf="@+id/buttonEqual" />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
