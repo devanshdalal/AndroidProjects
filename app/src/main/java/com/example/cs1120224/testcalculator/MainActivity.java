@@ -86,9 +86,6 @@ public class MainActivity extends ActionBarActivity {
                 accumulator -= Double.parseDouble(disp.getText().toString());
                 disp.setText(Double.toString(accumulator));
                 break;
-//            case 3:
-//                accumulator = Double.parseDouble(disp.getText().toString());
-//                break;
             default: ////// 0
                 accumulator = Double.parseDouble(disp.getText().toString());
                 break;
