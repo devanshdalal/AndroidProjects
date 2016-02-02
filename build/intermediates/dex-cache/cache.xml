@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/btech/cs1120224/AndroidStudioProjects/TestCalculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/btech/cs1120224/AndroidStudioProjects/TestCalculator/app/build/intermediates/pre-dexed/debug/classes-c3bd336588beec2a3f05da8b4f02dde194ddb5a7.jar" />
+    </item>
+    <item
+        jar="/home/btech/cs1120224/AndroidStudioProjects/TestCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/btech/cs1120224/AndroidStudioProjects/TestCalculator/app/build/intermediates/pre-dexed/debug/classes-744d150ef82c2635b2df743ccdce96406dc1b29b.jar" />
+    </item>
+    <item
+        jar="/home/btech/cs1120224/AndroidStudioProjects/TestCalculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/btech/cs1120224/AndroidStudioProjects/TestCalculator/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-b2d1f29d7dc88f14dce850bdba1dd450ad6a2b3c.jar" />
+    </item>
+    <item
+        jar="/misc/buffer/Softwares/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/btech/cs1120224/AndroidStudioProjects/TestCalculator/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-1bf45a2176c3f2beca57cee954a04aee6f9bddbb.jar" />
+    </item>
+
+</items>
