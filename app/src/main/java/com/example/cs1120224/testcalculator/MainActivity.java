@@ -43,32 +43,6 @@ public class MainActivity extends ActionBarActivity {
         return true;
     }
 
-    public void num_clicked(View sender)
-    {
-        Button bt = (Button)sender;
-        if(disp.getText().length()>10)return;
-        if( isEmpty || Double.parseDouble(disp.getText().toString())==0) {
-            disp.setText(bt.getText());
-            isEmpty=false;
-        }
-        else {
-            disp.append(bt.getText());
-        }
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
     public void op_Clicked(View sender)
     {
         Button bt = (Button)sender;
@@ -91,6 +65,31 @@ public class MainActivity extends ActionBarActivity {
         else if(nextOp.equals("=")) prevOperation=0;
         isEmpty=true;
 
+    }
+
+    public void num_clicked(View sender)
+    {
+        Button bt = (Button)sender;
+        if(disp.getText().length()>10)return;
+        if( isEmpty || Double.parseDouble(disp.getText().toString())==0) {
+            disp.setText(bt.getText());
+            isEmpty=false;
+        }
+        else {
+            disp.append(bt.getText());
+        }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings)
+            return true;
+        return super.onOptionsItemSelected(item);
     }
 
 }
