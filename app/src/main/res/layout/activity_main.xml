@@ -34,8 +34,12 @@
         android:layout_height="wrap_content"
         android:text="-"
         android:id="@+id/buttonSUB"
+        android:onClick="op_Clicked"
         android:layout_centerVertical="true"
-        android:onClick="op_Clicked" />
+        android:layout_toLeftOf="@+id/buttonAdd"
+        android:layout_toStartOf="@+id/buttonAdd"
+        android:layout_marginRight="39dp"
+        android:layout_marginEnd="39dp" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -55,10 +59,13 @@
         android:layout_height="wrap_content"
         android:text="1"
         android:id="@+id/button1"
+        android:onClick="num_clicked"
         android:layout_above="@+id/buttonSUB"
-        android:layout_alignRight="@+id/textView"
-        android:layout_alignEnd="@+id/textView"
-        android:onClick="num_clicked" />
+        android:layout_toRightOf="@+id/button7"
+        android:layout_toEndOf="@+id/button7"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginBottom="60dp" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -66,9 +73,9 @@
         android:layout_height="wrap_content"
         android:text="7"
         android:id="@+id/button7"
+        android:onClick="num_clicked"
         android:layout_above="@+id/button1"
-        android:layout_toRightOf="@+id/buttonSUB"
-        android:layout_toEndOf="@+id/buttonSUB"
-        android:onClick="num_clicked" />
+        android:layout_toRightOf="@+id/buttonEqual"
+        android:layout_toEndOf="@+id/buttonEqual" />
 
 </RelativeLayout>
